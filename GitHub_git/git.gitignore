@@ -1,0 +1,17 @@
+﻿# Created by .ignore support plugin (hsz.mobi)
+### !gitignore template
+# 忽略所有文件
+*
+# 除了这个文件
+!.gitignore
+
+
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
