@@ -1,0 +1,7 @@
+﻿安装外部 jar包 到本地仓库：
+/*========= com.google.code.kaptcha (google二维码)============*/
+mvn install:install-file -DgroupId=com.google.code -DartifactId=kaptcha -Dversion=2.3.2 -Dfile=D:\Develop\maven\cjhb\kaptcha-2.3.2.jar -Dpackaging=jar -DgeneratePom=true
+
+/*========= jp.sourceforge.qrcode =============*/
+mvn install:install-file -DgroupId=jp.sourceforge -DartifactId=qrcode -Dversion=1.0 -Dfile=D:\Develop\maven\cjhb\QRCode.jar -Dpackaging=jar -DgeneratePom=true
+
